@@ -65,7 +65,7 @@ int main(void)
 			if (i > 0) {
 						i = 0;
 						pin[0] = '\0';
-						printf("\r%s    \r", "Enter a 4 digit PIN (# to backup, * to erase whole thing): ");
+						printf("\nEnter a 4 digit PIN (# to backup, * to erase whole thing): ", "\r%s    \r");
 			}
 			
 			continue;//breaks one iteration
