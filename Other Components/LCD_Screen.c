@@ -1,9 +1,7 @@
 /*
- * 
- * Author : nader
  *
  * Code to drive the LCD screen
- * Fill in the missing code everywhere there is an "xx"
+ *
  */ 
 
 #include <avr/io.h>
