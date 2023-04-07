@@ -2,10 +2,8 @@
  * Matrix_KeyPad_JF4.c
  *
  * Created: 10/2/2022 1:38:45 PM
- * Author : sara.stout-grandy
  *
  * Read a password from the Keypad
- * Fill in the missing code at every "xx"
  */ 
 #define F_CPU 16000000UL
 
