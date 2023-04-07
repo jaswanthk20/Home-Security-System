@@ -3,7 +3,6 @@
  *
  * Created: 10/2/2022 12:42:34 PM
  *
- * Complete the missing code everywhere there is an "xx".
  */ 
 
 #define F_CPU 16000000UL
