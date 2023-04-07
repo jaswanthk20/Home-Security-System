@@ -19,7 +19,7 @@ Along the way, some changes were made in the schedule as seen in Appendix D (ini
 Work that was completed in the latter half of the project included, implementing a matrix keypad to enter passcode to gain access to house, ultrasonic sensor testing, PIR motion sensor implementation, implementing a hall effect sensor used in the final design, implementing an LCD screen to display the passcode entered and current state of house, and an audio system to alert homeowner when the system is triggered/intrusion is detected. In this part, final implementation of the system and all components with firmware was completed since the last report.
 
 
-##1. Introduction
+## 1. Introduction
 
 This report presents the design and implementation of a home security system that aims to protect homes from intruders. The project began on January 16th, 2023, and was completed on March 29th, 2023. This report provides a comprehensive overview of the design, development, and implementation of the home security system. Following the executive summary, this report is structured into several sections, including the introduction, discussion, and conclusion. 
 
@@ -28,9 +28,9 @@ The team encountered several challenges, particularly during the design phase, w
 The project is officially completed, and after much deliberation, it is composed of an Arduino Nano, two hall effect sensors, a speaker, three colored LEDs, two 555 timers, an LCD display, and a matrix keypad. The report discusses the remainder of the design process since the last report. Covered in this report are the completed design phases, implementation and testing, and some valuable insights for future projects.
  
 
-##2. Discussion
+## 2. Discussion
 
-###2.1 Final design
+### 2.1 Final design
 Since the last report, much work has been completed on the security system. The project was completed in a timely fashion as required by clients for the demonstration date of Wednesday March 29th, 2023. The midterm progress report outlined multiple details of the final integration that have been altered in the final design due to several factors.
 
 The midterm vision of the overengineered system consisted of six sensors (two PIR sensors, two hall effect sensors, and two ultrasonic sensors), a speaker, an LCD screen, three LEDs, and a keypad. This design was streamlined in the finalization process due to decisions regarding pin assignments, sensor practicality, and overall system practicality.
@@ -40,9 +40,9 @@ The final design consists of only two sensors, three LEDs, a speaker, an LCD scr
 
 ![image](https://user-images.githubusercontent.com/114720268/230543258-9cbe61d2-876f-4fb6-819e-8e29645f14bc.png)
 
-Figure 1:Circuit diagram for final design.
+> Figure 1:Circuit diagram for final design.
 
-###2.2 Integration/testing process
+### 2.2 Integration/testing process
 As mentioned earlier, multiple issues encountered caused the midterm report design to be altered. These included the sensitivity of the PIR sensor, and the large number of pins used by the ultrasonic sensor.
 
 The PIR sensor was tested multiple times individually and in the final integration design using the model houses provided by the clients, shown in Appendix C. It worked as intended, but often gave false positives when stray thermal radiation was detected outside of the houses. This led to the decision of removing it from the final integration. 
@@ -53,7 +53,7 @@ While testing the ultrasonic sensor and the PIR sensor, multiple 3D designs for 
 
 ![image](https://user-images.githubusercontent.com/114720268/230543337-6920e174-5d45-4214-9a62-774abacd0873.png)
 
-Figure 2: PIR sensor mount.
+> Figure 2: PIR sensor mount.
 
 The other components such as the two 555 timers, the LEDs, the keypad, and the LCD screen all worked on the first attempt of integration into the final design, which was due to the extensive time spent working on their individual circuits throughout the year.
 
@@ -65,9 +65,9 @@ Overall, the components were combined into a working system in under 500 lines o
 
 ![image](https://user-images.githubusercontent.com/114720268/230543408-bd696afc-7a9e-4d93-8730-c6b41c0ff970.png)
 
-Figure 3: Firmware flowchart.
+> Figure 3: Firmware flowchart.
 
-###2.3 Minor issues in the final implementation
+### 2.3 Minor issues in the final implementation
 
 As with most projects, the integration of the final design was one of the most challenging parts of the finalization. Multiple issues encountered hindered progress on prototype testing and finalization including speaker integration and pin management issues. 
 
@@ -86,9 +86,9 @@ For future versions, further software development to include a password change s
 
 ![image](https://user-images.githubusercontent.com/114720268/230543503-45d33bdc-0587-48d2-803b-bd319d026771.png)
 
-Figure 4: External power module with 9V and USB power capability.
+> Figure 4: External power module with 9V and USB power capability.
 
-##3. Conclusion
+## 3. Conclusion
 
 In conclusion, the home security system project was successful in detecting trespass through a door or window and notifying the homeowner, which was its main goal. The project, which began on January 16th, 2023, and ended on March 29th, 2023, was completed on schedule.
 
@@ -103,7 +103,7 @@ With the hall effect sensors producing nearly immediate results in individual te
 Overall, the project met its goals and offered helpful advice for future initiatives involving home security systems. The project team overcame obstacles and produced a useful and efficient home security system by working well together and addressing problems.
  
 
-##4. Appendices
+## 4. Appendices
 
 Appendix A: Final Working Design Circuit Diagram
 
