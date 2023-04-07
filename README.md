@@ -37,6 +37,7 @@ The final design consists of only two sensors, three LEDs, a speaker, an LCD scr
 
 
 ![image](https://user-images.githubusercontent.com/114720268/230543258-9cbe61d2-876f-4fb6-819e-8e29645f14bc.png)
+
 Figure 1:Circuit diagram for final design.
 
 2.2 Integration/testing process
@@ -49,6 +50,7 @@ The ultrasonic sensor was the third type of sensor initially intended to be incl
 While testing the ultrasonic sensor and the PIR sensor, multiple 3D designs for mounting the sensors were created and even 3D printed. These mounts are unfortunately not on the final system as the sensors were removed from the design. The PIR sensor mount is pictured below. The hall effect sensors were not mounted with 3D modelled brackets in the final design due to time constraints, and fine tolerances required for such a small part. They were mounted using tape for client demonstrations.
 
 ![image](https://user-images.githubusercontent.com/114720268/230543337-6920e174-5d45-4214-9a62-774abacd0873.png)
+
 Figure 2: PIR sensor mount.
 
 The other components such as the two 555 timers, the LEDs, the keypad, and the LCD screen all worked on the first attempt of integration into the final design, which was due to the extensive time spent working on their individual circuits throughout the year.
@@ -60,6 +62,7 @@ At the end of the testing and finalization phase, Group 3 came up with a design 
 Overall, the components were combined into a working system in under 500 lines of code, utilizing an efficient switch function in the main as shown below in Appendix F.1. Below is a flow chart detailing the switching function and loops in the state functions in the system firmware
 
 ![image](https://user-images.githubusercontent.com/114720268/230543408-bd696afc-7a9e-4d93-8730-c6b41c0ff970.png)
+
 Figure 3: Firmware flowchart.
 
 2.3 Minor issues in the final implementation
@@ -80,6 +83,7 @@ Overall, the overengineered system design described in the last report was chopp
 For future versions, further software development to include a password change system would benefit the user experience with the system. Including a stand-alone power supply module and 9V battery as shown below can also add extra capability to the system, allowing it to be deployed without a nearby USB power source. A 3D printed container for the entire system would also aid in the mobility and ease of employment of the system, along with some 3D printed mounts for the sensors.
 
 ![image](https://user-images.githubusercontent.com/114720268/230543503-45d33bdc-0587-48d2-803b-bd319d026771.png)
+
 Figure 4: External power module with 9V and USB power capability.
 
 3.	Conclusion
