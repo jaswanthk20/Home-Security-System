@@ -2,11 +2,9 @@
  * Audio_Shell.c
  *
  * Created: 10/9/2022 3:22:25 PM
- * Author : Dr. Sara Stout-Grandy
  *
  * Audio amplifier (PAM8302) driver into Speaker to create Sound.
  *
- * Fill in the missing code where ever there is an "xx"
  */ 
 
 #define F_CPU 16000000UL
