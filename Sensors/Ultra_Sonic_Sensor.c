@@ -1,10 +1,8 @@
 /*
  * HC_SR04.c
  *
- * Author : Dr. Sara Stout-Grandy
  *
  * Code to make the HC-SR04 Ultrasonic Sensor Work
- * Complete the "xx" with the proper code
  */ 
 
 #define F_CPU 16000000UL
